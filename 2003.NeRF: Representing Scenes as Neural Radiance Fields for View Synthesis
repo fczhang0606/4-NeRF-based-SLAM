@@ -2,3 +2,38 @@ https://arxiv.org/pdf/2003.08934.pdf
 
 https://www.bilibili.com/video/BV1Qd4y1r7ZX/?spm_id_from=333.337.search-card.all.click&vd_source=26c583b46dbb1b1b34ae4743b60cf76f
 
+
+
+################################################################################################################################
+https://github.com/yenchenlin/nerf-pytorch
+https://www.bilibili.com/video/BV1d841187tn/?spm_id_from=333.337.search-card.all.click&vd_source=26c583b46dbb1b1b34ae4743b60cf76f
+
+conda create -n NeRF_NeRF
+conda activate NeRF_NeRF
+
+cd anaconda3/envs/NeRF_NeRF
+git clone https://github.com/yenchenlin/nerf-pytorch.git
+
+cd nerf-pytorch
+# pip install -r requirements.txt
+    torch==1.11.0
+    torchvision>=0.9.1
+    imageio
+    imageio-ffmpeg
+    matplotlib
+    configargparse
+    tensorboard>=2.0
+    tqdm
+    opencv-python
+
+conda install python=3.8
+https://pytorch.org/get-started/previous-versions/
+conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.1 -c pytorch
+
+bash download_example_data.sh
+################################################################################################################################
+conda install ipykernel
+conda install platformdirs
+pip3 install ipywidgets
+pip3 install --upgrade jupyter_core jupyter_client
+################################################################################################################################
