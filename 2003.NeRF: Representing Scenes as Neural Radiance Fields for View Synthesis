@@ -8,10 +8,10 @@ https://www.bilibili.com/video/BV1Qd4y1r7ZX/?spm_id_from=333.337.search-card.all
 https://github.com/yenchenlin/nerf-pytorch
 https://www.bilibili.com/video/BV1d841187tn/?spm_id_from=333.337.search-card.all.click&vd_source=26c583b46dbb1b1b34ae4743b60cf76f
 
-conda create -n NeRF_NeRF
-conda activate NeRF_NeRF
+conda create -n NeRF-SLAM_NeRF
+conda activate NeRF-SLAM_NeRF
 
-cd anaconda3/envs/NeRF_NeRF
+cd anaconda3/envs/NeRF-SLAM_NeRF
 git clone https://github.com/yenchenlin/nerf-pytorch.git
 cd nerf-pytorch
 
