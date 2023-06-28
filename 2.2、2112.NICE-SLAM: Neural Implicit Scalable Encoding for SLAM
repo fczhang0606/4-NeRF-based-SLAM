@@ -1,3 +1,4 @@
+################################################################################################################################
 https://arxiv.org/pdf/2112.12130.pdf
 
 https://pengsongyou.github.io/nice-slam
@@ -5,9 +6,19 @@ https://pengsongyou.github.io/nice-slam
 https://github.com/cvg/nice-slam
 
 https://www.bilibili.com/video/av301256831/?vd_source=26c583b46dbb1b1b34ae4743b60cf76f
-    SDF: Signed Distance Field
-        https://blog.csdn.net/VIPCCJ/article/details/120236241
-        https://www.bilibili.com/video/BV1YK4y1T7yY/?p=4&spm_id_from=pageDriver&vd_source=7a5fcfa8c6ae901cc39288089c7c4eb1
 
 https://zhuanlan.zhihu.com/p/582821039
+################################################################################################################################
+sudo apt-get install libopenexr-dev
 
+conda env create -f environment.yaml
+conda activate NeRF-SLAM_NICE-SLAM
+cd ~/anaconda3/envs/NeRF-SLAM_NICE-SLAM
+
+conda install ipykernel
+conda install platformdirs
+pip3 install ipywidgets
+pip3 install --upgrade jupyter_core jupyter_client
+
+git clone https://github.com/cvg/nice-slam.git
+################################################################################################################################
