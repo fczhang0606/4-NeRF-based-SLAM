@@ -37,4 +37,11 @@ cd ~/anaconda3/envs/NeRF-SLAM_NICE-SLAM/nice-slam
 
 bash scripts/download_apartment.sh
 python -W ignore run.py configs/Apartment/apartment.yaml
+
+sudo gedit ~/.bashrc
+export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:32/64/128
+source ~/.bashrc
+
+Renderer.py
+def __init__(self, cfg, args, slam, points_batch_size=50000, ray_batch_size=10000):
 ################################################################################################################################
