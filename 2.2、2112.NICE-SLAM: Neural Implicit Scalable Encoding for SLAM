@@ -22,3 +22,19 @@ pip3 install --upgrade jupyter_core jupyter_client
 
 git clone https://github.com/cvg/nice-slam.git
 ################################################################################################################################
+cd ~/anaconda3/envs/NeRF-SLAM_NICE-SLAM/nice-slam
+
+bash scripts/download_vis_apartment.sh
+python visualizer.py configs/Apartment/apartment.yaml --output output/vis/Apartment
+################################################################################################################################
+cd ~/anaconda3/envs/NeRF-SLAM_NICE-SLAM/nice-slam
+
+bash scripts/download_demo.sh
+python -W ignore run.py configs/Demo/demo.yaml
+python visualizer.py configs/Demo/demo.yaml
+################################################################################################################################
+cd ~/anaconda3/envs/NeRF-SLAM_NICE-SLAM/nice-slam
+
+bash scripts/download_apartment.sh
+python -W ignore run.py configs/Apartment/apartment.yaml
+################################################################################################################################
