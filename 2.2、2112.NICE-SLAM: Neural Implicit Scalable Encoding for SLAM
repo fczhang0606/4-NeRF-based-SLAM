@@ -37,6 +37,7 @@ cd ~/anaconda3/envs/NeRF-SLAM_NICE-SLAM/nice-slam
 
 bash scripts/download_apartment.sh
 python -W ignore run.py configs/Apartment/apartment.yaml
+https://blog.csdn.net/tMb8Z9Vdm66wH68VX1/article/details/131237989
 
 nice_slam.yaml
 pixels: 500
