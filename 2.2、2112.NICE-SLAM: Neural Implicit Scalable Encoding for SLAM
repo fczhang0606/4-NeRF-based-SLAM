@@ -33,31 +33,26 @@ bash scripts/download_demo.sh
 python -W ignore run.py configs/Demo/demo.yaml
 python visualizer.py configs/Demo/demo.yaml
 ################################################################################################################################
+conda activate NeRF-SLAM_NICE-SLAM
 cd ~/anaconda3/envs/NeRF-SLAM_NICE-SLAM/nice-slam
 
 bash scripts/download_apartment.sh
 python -W ignore run.py configs/Apartment/apartment.yaml
+
 https://blog.csdn.net/tMb8Z9Vdm66wH68VX1/article/details/131237989
-
 nice_slam.yaml
-pixels: 500
-
 apartment.yaml
-every_frame: 20
-pixels: 2500
-
 Mapper.py
-def keyframe_selection_overlap(self, gt_color, gt_depth, c2w, keyframe_dict, k, N_samples=8, pixels=50):
-
 Renderer.py
-def __init__(self, cfg, args, slam, points_batch_size=50000, ray_batch_size=10000):
-
 Mesher.py
-def __init__(self, cfg, args, slam, points_batch_size=50000, ray_batch_size=10000):
 
 sudo gedit ~/.bashrc
 export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:32/64/128
 source ~/.bashrc
 
+pip install -U PyQt5
+pip uninstall -U PyQt5
+conda install pyqt
 
+taskkill -PID 进程号 -F
 ################################################################################################################################
