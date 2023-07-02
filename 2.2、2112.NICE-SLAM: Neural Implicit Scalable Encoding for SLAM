@@ -49,13 +49,4 @@ Mesher.py
 sudo gedit ~/.bashrc
 export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:32/64/128
 source ~/.bashrc
-
-pip install qt
-pip install pyqt
-pip install pyqt5
-pip install opencv-python
-conda install qt
-conda install pyqt
-conda uninstall pyqt
-conda install pyqt5
 ################################################################################################################################
